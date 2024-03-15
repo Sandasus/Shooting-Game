@@ -36,8 +36,10 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"Spr_Playertaunt","path":"sprites/Spr_Playertaunt/Spr_Playertaunt.yy",},},
     {"id":{"name":"Sd_PlayerShoot","path":"sounds/Sd_PlayerShoot/Sd_PlayerShoot.yy",},},
     {"id":{"name":"Spr_Obstcale","path":"sprites/Spr_Obstcale/Spr_Obstcale.yy",},},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Obj_Collidleable","path":"objects/Obj_Collidleable/Obj_Collidleable.yy",},},
     {"id":{"name":"Spr_PlayerBullet","path":"sprites/Spr_PlayerBullet/Spr_PlayerBullet.yy",},},
     {"id":{"name":"Spr_Gun","path":"sprites/Spr_Gun/Spr_Gun.yy",},},

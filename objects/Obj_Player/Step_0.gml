@@ -1,4 +1,5 @@
 
+
 var collision_check =15
 
 if(not get_hit and not dead)// and not place_meeting(x+10*image_xscale,y,Obj_Collidleable))
@@ -39,9 +40,11 @@ if(keyboard_check(ord("S")) or (keyboard_check(ord("A"))) or (keyboard_check(ord
 	
 }
 else if(not get_hit){
-	
+	if(keyboard_check(ord("T"))){
+	sprite_index = Spr_Playertaunt
+}else{
 	sprite_index = Spr_Playeridle
-	
+}
 }
 
 if(get_hit = true){
