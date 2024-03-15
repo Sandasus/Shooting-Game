@@ -22,6 +22,7 @@
     {"name":"Spr_Playertaunt","order":5,"path":"sprites/Spr_Playertaunt/Spr_Playertaunt.yy",},
     {"name":"Spr_Obstcale","order":8,"path":"sprites/Spr_Obstcale/Spr_Obstcale.yy",},
     {"name":"Sprite20","order":13,"path":"sprites/Sprite20/Sprite20.yy",},
+    {"name":"Sound5","order":4,"path":"sounds/Sound5/Sound5.yy",},
     {"name":"Obj_Collidleable","order":9,"path":"objects/Obj_Collidleable/Obj_Collidleable.yy",},
     {"name":"Spr_PlayerBullet","order":1,"path":"sprites/Spr_PlayerBullet/Spr_PlayerBullet.yy",},
     {"name":"Obj_Startmenu","order":15,"path":"objects/Obj_Startmenu/Obj_Startmenu.yy",},

@@ -42,6 +42,7 @@ if(keyboard_check(ord("S")) or (keyboard_check(ord("A"))) or (keyboard_check(ord
 else if(not get_hit){
 	if(keyboard_check(ord("T"))){
 	sprite_index = Spr_Playertaunt
+	audio_play_sound(Sound5,1,0)
 }else{
 	sprite_index = Spr_Playeridle
 }
