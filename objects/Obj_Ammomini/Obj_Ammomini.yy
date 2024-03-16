@@ -1,13 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Enemy",
+  "name": "Obj_Ammomini",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_PlayerBullet","path":"objects/Obj_PlayerBullet/Obj_PlayerBullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Collidleable","path":"objects/Obj_Collidleable/Obj_Collidleable.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Minibullet","path":"objects/Obj_Minibullet/Obj_Minibullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -32,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_Enemy",
-    "path": "sprites/Spr_Enemy/Spr_Enemy.yy",
+    "name": "Spr_Ammo25",
+    "path": "sprites/Spr_Ammo25/Spr_Ammo25.yy",
   },
   "spriteMaskId": null,
   "visible": true,

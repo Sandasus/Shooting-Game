@@ -2,6 +2,18 @@
 
 var collision_check =15
 
+if(keyboard_check(ord("N"))){
+	instance_destroy(Obj_PlayerGun)
+	instance_destroy(Obj_Mini)
+	instance_create_layer(x,y,"Instances",Obj_Mini)
+}
+if(keyboard_check(ord("B"))){
+	instance_destroy(Obj_PlayerGun)
+	instance_destroy(Obj_Mini)
+	instance_create_layer(x,y,"Instances",Obj_PlayerGun)
+}
+
+
 if(not get_hit and not dead)// and not place_meeting(x+10*image_xscale,y,Obj_Collidleable))
 {
 	if(keyboard_check(ord("A"))and not place_meeting(x-collision_check,y,Obj_Collidleable))
